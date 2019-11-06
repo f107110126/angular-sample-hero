@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
         let navigationExtras: NavigationExtras = {
           queryParamsHandling: 'preserve',
           preserveFragment: true
-        }
+        };
         // console.log('navigationExtras have been set in login.')
 
         // Redirect the user
