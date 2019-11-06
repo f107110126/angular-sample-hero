@@ -14,6 +14,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AppRoutingModule } from './app-routing.module';
 import { InMemoryDataService } from './in-memory-data.service';
 import { ComposeMessageComponent } from './compose-message/compose-message.component';
+import { AdminModule } from './admin/admin.module';
+import { AuthModule } from './auth/auth.module';
 
 
 
@@ -31,6 +33,8 @@ import { ComposeMessageComponent } from './compose-message/compose-message.compo
     BrowserAnimationsModule,
     FormsModule,
     HeroesModule,
+    AuthModule,
+    AdminModule,
     CrisisCenterModule,
     AppRoutingModule,
     HttpClientModule,
